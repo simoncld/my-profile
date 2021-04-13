@@ -1,0 +1,122 @@
+
+body {
+    background: #d8e3e7;
+    color: #132c33;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;  
+
+}
+
+h1 {
+    color: #126e82;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 25;
+    font-weight: 600;
+    color: #00A0C3;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	padding: : 30px;
+	font-weight: 400;
+}
+
+img{
+	width: 160px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px 3px #A1A4A4;
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px
+	}
+}
+
+.container{
+	margin: auto;
+    width: 570;
+}
+
+.card-white{
+	background: #fFFFFF;
+	padding: 40px;
+	box-shadow: 3px 3px 20px 3px #A1A4A4;
+	border-radius: 10px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.btn-blue{
+	background-color: #126e82;
+	padding: 8px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	color: #d8e3e7;
+}
+
+.btn-blue:hover {
+	background-color: #00A0C3;
+}
+
+.zoom{
+	transition: transform .3s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomrev{
+	transition: transform .3s; /* Animation */
+}
+
+.zoomrev:hover {
+  transform: scale(0.92); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.list-inline{
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #106E82;
+}
+
+.list-inline i:hover{
+	color: #00A0C3;
+
+}
+
+.thumb-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👍</text></svg>")
+      16 0,
+    auto;
+}
+
+.love-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😍</text></svg>")
+      16 0,
+    auto;
+}
